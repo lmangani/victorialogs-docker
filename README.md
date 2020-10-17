@@ -18,7 +18,7 @@ http://127.0.0.1:8481/select/0/
 ```
 http://127.0.0.1:8480/insert/0/loki/api/v1/push
 ```
-#### TCP Insert 
+#### Loki TCP Insert 
 ```
 $ nc 127.0.0.1 2003
 loki{component="parser",level="WARN"} "app log line"
