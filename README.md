@@ -23,3 +23,9 @@ http://127.0.0.1:8480/insert/0/loki/api/v1/push
 $ nc 127.0.0.1 2003
 loki{component="parser",level="WARN"} "app log line"
 ```
+
+
+### Grafana
+A vanilla Grafana container w/ included datasource is provided for testing Explore on port `3000`
+
+<img src="https://github.com/faceair/VictoriaLogs/raw/master/docs/loki-query-range.png" />
